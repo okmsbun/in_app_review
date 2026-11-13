@@ -1,3 +1,10 @@
+## Unreleased
+
+- Migrate Android to built-in Kotlin and the AGP 9 DSL, preserving the Java/Kotlin 11 target and Android minimum SDK.
+- Remove redundant Kotlin source directories from Java source sets.
+- Require Flutter 3.44 / Dart 3.12 for Flutter's legacy KGP compatibility support.
+- Migrate the example app to AGP 9.3.1 / Gradle 9.5.0 with built-in Kotlin and the new DSL enabled, and verify its Android build in CI.
+
 # [2.0.12]
 
 - Fix an Android NullPointerException that sometimes occurred when apps were backgrounded.
